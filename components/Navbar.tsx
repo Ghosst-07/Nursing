@@ -106,6 +106,10 @@ export function Navbar() {
             className="absolute bottom-0 h-0.5 bg-orange-500 transition-all duration-300"
           />
         </nav>
+        <Button className="hidden md:flex bg-orange-500 text-white hover:bg-orange-600 transition-colors rounded-full ml-4">
+          <PhoneCall className="mr-2 h-4 w-4" />
+          +91 8864953313
+        </Button>
 
         {/* Mobile Navbar */}
         <div className="flex items-center gap-4 md:hidden">

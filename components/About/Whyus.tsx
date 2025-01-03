@@ -13,7 +13,7 @@ const Whyus = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            Why Phyoli Health Care
+            Why Choose Us?
           </motion.h2>
           <motion.p
             className="mt-4 text-base leading-7 text-gray-600 sm:mt-8 font-pj"

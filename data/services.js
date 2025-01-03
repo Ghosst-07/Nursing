@@ -48,6 +48,54 @@ const nursingServices = [
     image:
       "https://ubiqare.in/wp-content/uploads/2020/11/asian-female-doctor-talking-senior-caucasian-patient-during-house-call-1-scaled-e1651153616473.jpg",
   },
+  {
+    title: "Lab Test at Home",
+    description:
+      "Convenient and accurate lab tests at home, saving you time and effort. Our team ensures safe sample collection, timely reporting, and adherence to medical standards for various diagnostic tests.",
+    image:
+      "https://myhealth-redcliffelabs.redcliffelabs.com/media/blogcard-images/3601/8388456c-a3d3-4be4-95ee-c0c0baffd76c.jpg",
+  },
+  {
+    title: "Epilepsy Care at Home",
+    description:
+      "Specialized home care for epilepsy patients, focusing on medication management, safety measures, and emotional support. Our caregivers ensure a secure and supportive environment to manage the condition effectively.",
+    image:
+      "https://www.homecaring.com.au/wp-content/uploads/2024/09/epilepsy-care.webp",
+  },
+  {
+    title: "Mother and Baby Care at Home",
+    description:
+      "Comprehensive care for mothers and babies, ensuring health, nutrition, and emotional well-being. Our services include breastfeeding support, postnatal exercises, and newborn care.",
+    image:
+      "https://www.kshomecare.in/wp-content/uploads/2022/02/mother-and-baby-care-min.png",
+  },
+  {
+    title: "Post Surgical Care",
+    description:
+      "Professional post-surgical care at home, including wound dressing, pain management, and mobility support. Our team ensures a smooth and safe recovery process.",
+    image: "https://wecare24.co/wp-content/uploads/2022/04/postsurgery.jpg",
+  },
+  {
+    title: "Tracheotomy Care at Home",
+    description:
+      "Expert tracheotomy care at home, focusing on hygiene, regular cleaning, and preventing infections. Our caregivers are trained to handle emergency situations and provide personalized care.",
+    image:
+      "https://kefihealthcare.com/wp-content/uploads/2022/01/trache-for-website.jpg",
+  },
+  {
+    title: "Elder Care at Home",
+    description:
+      "Holistic elder care services at home, including daily assistance, medication reminders, and companionship. We strive to improve the quality of life for elderly patients in a familiar environment.",
+    image:
+      "https://home-nursing.care/assets/images/1-elderly-care-services-in-lucknow.webp",
+  },
+  {
+    title: "Geriatric Care at Home",
+    description:
+      "Specialized geriatric care focusing on chronic conditions, mobility support, and overall well-being. Our caregivers provide personalized attention to ensure comfort and dignity for older adults.",
+    image:
+      "https://www.portea.com/static/107116a27f2460be4f0ea74968340c00/b728a/Elder_Care-3_Desktop.jpg",
+  },
 ];
 
 const medicalEquipment = [
