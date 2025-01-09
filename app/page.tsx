@@ -22,7 +22,7 @@ export default function Home() {
       <Herosection />
 
       <LogoScroll />
-      <AppointmentCallToAction phoneNumber={""} whatsappNumber={""}/>
+    
 
       {/* Services Grid Section */}
       <HomeCard />
