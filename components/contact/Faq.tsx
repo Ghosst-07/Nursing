@@ -3,12 +3,12 @@ import * as motion from "motion/react-client";
 
 const faqData = [
   {
-    question: "What services does Pyoli Nursing provide?",
+    question: "What services does Phyoli Nursing provide?",
     answer:
       "We provide a variety of nursing services, including elder care, post-surgical care, maternity care, and more at home.",
   },
   {
-    question: "How can I contact Pyoli Nursing Services?",
+    question: "How can I contact Phyoli Nursing Services?",
     answer:
       "You can contact us via email at email@email.com or call us at +91 1864854864. You can also visit us at our location in Prem Nagar, Dehradun.",
   },

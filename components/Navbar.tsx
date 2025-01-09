@@ -68,13 +68,13 @@ export function Navbar() {
         <Link href="/" className="flex items-center gap-2">
           <Image
             src="/placeholder.svg"
-            alt="Pyoli Nursing Services"
+            alt="Phyoli Nursing Services"
             width={40}
             height={40}
             className="rounded-lg"
           />
           <span className="text-lg font-semibold md:inline hidden text-black">
-            Pyoli Nursing Services
+            Phyoli Health Care
           </span>
         </Link>
 
@@ -108,23 +108,23 @@ export function Navbar() {
         </nav>
         <Button className="hidden md:flex bg-orange-500 text-white hover:bg-orange-600 transition-colors rounded-full ml-4">
           <PhoneCall className="mr-2 h-4 w-4" />
-          +91 8864953313
+          +91 9634390655
         </Button>
 
         {/* Mobile Navbar */}
         <div className="flex items-center gap-4 md:hidden">
           <Link
             className="hidden md:flex items-center gap-2 text-sm font-medium text-black hover:text-orange-500 transition-colors"
-            href="mailto:Help@Pyolinursingservices.com"
+            href="mailto:Help@Phyolinursingservices.com"
           >
             <Mail className="h-4 w-4" />
             <span className="hidden md:inline">
-              Help@Pyolinursingservices.com
+              Help@Phyolinursingservices.com
             </span>
           </Link>
           <Button className="bg-orange-500 text-white hover:bg-orange-600 transition-colors rounded-full">
             <PhoneCall className="mr-2 h-4 w-4" />
-            +91 8864953313
+            +91 9634390655
           </Button>
 
           {/* Mobile Menu Button */}

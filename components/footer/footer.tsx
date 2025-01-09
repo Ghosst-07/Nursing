@@ -12,7 +12,7 @@ export default function Footer() {
             <Link href="/" className="flex items-center space-x-2">
               <div className="h-8 w-8 rounded-full bg-gray-300" />
               <span className="text-xl font-semibold">
-                Phyoli Nursing Services
+                Phyoli Health Care
               </span>
             </Link>
           </div>
@@ -80,7 +80,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="text-center text-sm text-gray-400">
-          © Copyright 2023. All Rights Reserved by Phyoli Nursing Services
+          © Copyright 2023. All Rights Reserved by Phyoli Health Care
         </div>
       </div>
     </motion.footer>

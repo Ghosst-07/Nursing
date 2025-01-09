@@ -20,7 +20,7 @@ const testimonials = [
     photo:
       "https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-male-1.png",
     feedback:
-      "The staff at Pyoli Nursing Services is incredibly professional and caring. They provided exceptional support and care during a difficult time for my family.",
+      "The staff at Phyoli Nursing Services is incredibly professional and caring. They provided exceptional support and care during a difficult time for my family.",
   },
   {
     name: "Rahul Sharma",
@@ -28,7 +28,7 @@ const testimonials = [
     photo:
       "https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-male-2.png",
     feedback:
-      "Pyoli Nursing Services truly exceeded my expectations. Their team is dedicated and compassionate, ensuring that every need is met with utmost care.",
+      "Phyoli Nursing Services truly exceeded my expectations. Their team is dedicated and compassionate, ensuring that every need is met with utmost care.",
   },
   {
     name: "Rajesh Kumar",
@@ -36,7 +36,7 @@ const testimonials = [
     photo:
       "https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-female.png",
     feedback:
-      "I am deeply grateful for the reliable and attentive nursing services provided by Pyoli. They brought peace of mind and comfort to my family.",
+      "I am deeply grateful for the reliable and attentive nursing services provided by Phyoli. They brought peace of mind and comfort to my family.",
   },
 ];
 
@@ -52,7 +52,7 @@ const Testimonial = () => {
               transition={{ duration: 0.8 }}
               className="text-lg font-medium text-gray-600 font-pj"
             >
-              2,157 people have said how good Phyoli Nursing Services is
+              2,157 people have said how good Phyoli Health Care is
             </motion.p>
             <motion.h2
               initial={{ opacity: 0, x: 100 }}

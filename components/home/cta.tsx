@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "../ui/button";
-import { Mail, PhoneCall } from "lucide-react";
+import { PhoneCall, MessageSquare } from "lucide-react";
 import * as motion from "motion/react-client";
 
 function Cta() {
@@ -20,7 +20,7 @@ function Cta() {
               transition={{ duration: 0.5 }}
               className="text-3xl font-bold tracking-tighter text-white md:text-4xl"
             >
-              Ready to Get Started?
+              Book an Appointment Today!
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, x: -100 }}
@@ -28,8 +28,8 @@ function Cta() {
               transition={{ duration: 0.5 }}
               className="max-w-[600px] text-white/80 md:text-xl"
             >
-              Contact us today to learn more about our services and how we can
-              help you or your loved ones.
+              Contact us via call or WhatsApp to schedule your appointment and
+              get started.
             </motion.p>
           </div>
           <motion.div
@@ -43,15 +43,15 @@ function Cta() {
               className="bg-black text-white hover:bg-orange-600 transition-colors rounded-full"
             >
               <PhoneCall className="mr-2 h-4 w-4" />
-              Call +91 8864953313
+              Call +91 9634390655
             </Button>
             <Button
               variant="outline"
               size="lg"
-              className="bg-transparent text-black border-black hover:bg-black/10 transition-colors rounded-full"
+              className="bg-green-500 text-black border-black hover:bg-black/10 transition-colors rounded-full"
             >
-              <Mail className="mr-2 h-4 w-4" />
-              Email Us
+              <MessageSquare className="mr-2 h-4 w-4" />
+              WhatsApp Us
             </Button>
           </motion.div>
         </div>

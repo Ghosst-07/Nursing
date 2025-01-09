@@ -27,7 +27,7 @@ function ThirdSection() {
             transition={{ duration: 1 }}
             className={`${ubuntu.className} text-black font-extrabold text-3xl md:text-6xl px-4 md:px-20 text-center md:text-left`}
           >
-            What Makes Pyoli Nursing Services Stand Out?
+            What Makes Phyoli Nursing Services Stand Out?
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, x: 100 }}

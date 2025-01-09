@@ -3,7 +3,7 @@ import * as motion from "motion/react-client";
 
 function Mapsection() {
   const locationUrl =
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3443.5946174779674!2d77.95760257620255!3d30.334046604790387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39092b34f93ca005%3A0x3485d71a41c7d621!2sPyoli%20Nursing%20Services%20%7C%20Nursing%20Services%20In%20Dehradun!5e0!3m2!1sen!2sin!4v1735766242208!5m2!1sen!2sin";
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3443.5946174779674!2d77.95760257620255!3d30.334046604790387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39092b34f93ca005%3A0x3485d71a41c7d621!2sPhyoli%20Nursing%20Services%20%7C%20Nursing%20Services%20In%20Dehradun!5e0!3m2!1sen!2sin!4v1735766242208!5m2!1sen!2sin";
 
   const textAnimation = {
     hidden: { opacity: 0, y: 50 },
@@ -32,7 +32,7 @@ function Mapsection() {
       >
         <iframe
           className="rounded-lg shadow-lg"
-          title="Pyoli Nursing Services Location"
+          title="Phyoli Nursing Services Location"
           src={locationUrl}
           style={{ border: 0, width: "100%", height: "500px" }}
           allowFullScreen
@@ -53,13 +53,13 @@ function Mapsection() {
           Connecting Near and Far
         </h2>
         <p className="text-gray-600 mb-4">
-          Pyoli Nursing Services <br /> Nursing Services In Dehradun, <br />
+          Phyoli Nursing Services <br /> Nursing Services In Dehradun, <br />
           Prem Nagar,
           <br /> Dehradun,
           <br /> Uttarakhand 248007
         </p>
         <p className="text-gray-600 mb-4">
-          At Pyoli Nursing Services, we prioritize compassionate and
+          At Phyoli Nursing Services, we prioritize compassionate and
           personalized care for our patients. Whether it's elder care,
           post-surgical recovery, or chronic illness support, our team is
           dedicated to providing top-notch services to families in need.
