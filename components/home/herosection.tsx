@@ -42,14 +42,14 @@ function Herosection() {
                 families find the support they need during critical times.
               </p>
               <div className="mt-8 flex items-center justify-center lg:justify-start gap-5">
-                <Link href="/#services">
+                <Link href="tel:8864963313">
                   <div className="flex items-center gap-2 text-white bg-orange-500 px-4 py-2 rounded-full hover:bg-[#fae29f] transition-colors">
                     <Phone className="h-4 w-4" />
                     <span>Get in Touch</span>
                   </div>
                 </Link>
 
-                <Link href="/#services">
+                <Link href="/about">
                   <div className="flex items-center gap-2 text-orange-500 border border-orange-500 px-4 py-2 rounded-full hover:bg-[#fae29f] transition-colors">
                     <ArrowRight className="h-4 w-4" />
                     <span>Learn More</span>

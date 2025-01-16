@@ -59,7 +59,7 @@ function Hero() {
               <div className="bg-white p-2 rounded-full shadow-xl">
                 <Phone className="h-6 w-6 text-black" />
               </div>
-              <p className="text-black text-xl font-semibold">+91 1234567890</p>
+              <p className="text-black text-xl font-semibold">+91-9634390655</p>
             </div>
           </div>
 

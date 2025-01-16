@@ -38,21 +38,20 @@ function Cta() {
             transition={{ duration: 0.5 }}
             className="flex flex-col gap-2 sm:flex-row"
           >
-            <Button
-              size="lg"
-              className="bg-black text-white hover:bg-orange-600 transition-colors rounded-full"
+            <a
+              href="tel:+919634390655"
+              className="bg-black text-white hover:bg-orange-600 transition-colors rounded-full flex items-center justify-center px-4 py-2 text-lg"
             >
               <PhoneCall className="mr-2 h-4 w-4" />
               Call +91 9634390655
-            </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="bg-green-500 text-black border-black hover:bg-black/10 transition-colors rounded-full"
+            </a>
+            <a
+              href="https://wa.me/919634390655"
+              className="border border-black bg-green-500 text-black border-black hover:bg-black/10 transition-colors rounded-full flex items-center justify-center px-4 py-2 text-lg"
             >
               <MessageSquare className="mr-2 h-4 w-4" />
               WhatsApp Us
-            </Button>
+            </a>
           </motion.div>
         </div>
       </div>

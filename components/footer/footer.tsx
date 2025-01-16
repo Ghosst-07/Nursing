@@ -10,10 +10,12 @@ export default function Footer() {
           {/* Logo */}
           <div className="mb-4 md:mb-0">
             <Link href="/" className="flex items-center space-x-2">
-              <div className="h-8 w-8 rounded-full bg-gray-300" />
-              <span className="text-xl font-semibold">
-                Phyoli Health Care
-              </span>
+              <img
+                src="/logo.png"
+                alt="Phyoli Health Care Logo"
+                className="h-8 w-8 rounded-full"
+              />
+              <span className="text-xl font-semibold">Phyoli Health Care</span>
             </Link>
           </div>
 

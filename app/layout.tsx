@@ -24,7 +24,7 @@ export default function RootLayout({
         <main className="overflow-x-hidden">{children}</main>
         <SpeedInsights />
         <Footer />
-        <WhatsAppFabButton phoneNumber={"123456789"} message={"Hii"} />
+        <WhatsAppFabButton phoneNumber={"+919634390655"} message={"Hii"} />
       </body>
     </html>
   );

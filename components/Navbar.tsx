@@ -67,7 +67,7 @@ export function Navbar() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="/placeholder.svg"
+            src="/logo.png"
             alt="Phyoli Nursing Services"
             width={40}
             height={40}
@@ -106,7 +106,10 @@ export function Navbar() {
             className="absolute bottom-0 h-0.5 bg-orange-500 transition-all duration-300"
           />
         </nav>
-        <Button className="hidden md:flex bg-orange-500 text-white hover:bg-orange-600 transition-colors rounded-full ml-4">
+        <Button
+          className="hidden md:flex bg-orange-500 text-white hover:bg-orange-600 transition-colors rounded-full ml-4"
+          onClick={() => (window.location.href = "tel:+919634390655")}
+        >
           <PhoneCall className="mr-2 h-4 w-4" />
           +91 9634390655
         </Button>

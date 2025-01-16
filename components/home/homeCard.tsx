@@ -19,7 +19,7 @@ interface HomeCardProps {
 
 export function Cards({ CardData }: HomeCardProps) {
   return (
-    <div className="flex flex-col w-full shadow-lg rounded-lg">
+    <div className="flex flex-col w-full shadow-lg h-full rounded-lg">
       <motion.div
         style={{ backgroundColor: CardData.color }}
         className="flex flex-col p-6 md:p-14 gap-4 rounded py-12 md:py-24"
@@ -60,7 +60,7 @@ export function HomeCard() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <h2 className="text-2xl md:text-3xl font-bold tracking-tighter text-black md:text-5xl">
+              <h2 className="text-2xl font-bold tracking-tighter text-black md:text-5xl">
                 Our Dedication to Exceptional Care
               </h2>
               <p className="max-w-[900px] text-gray-500 text-base md:text-xl">
