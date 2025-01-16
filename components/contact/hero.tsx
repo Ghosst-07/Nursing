@@ -52,7 +52,7 @@ function Hero() {
                 <Mail className="h-6 w-6 text-black" />
               </div>
               <p className="text-black text-xl font-semibold">
-                email@email.com
+                phyolienterprises@gmail.com
               </p>
             </div>
             <div className="flex flex-row items-center gap-2  ">
