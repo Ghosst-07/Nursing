@@ -169,7 +169,7 @@ export function Navbar() {
                 </div>
                 <div className="flex items-center gap-2 mt-2">
                   <span className="text-black">
-                    123 Address, Healthcare City, India
+                    Laxmi Enclave Dehrakhash, Green Building Deharadun, India
                   </span>
                 </div>
               </div>
