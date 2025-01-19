@@ -8,7 +8,7 @@ import WhatsAppFabButton from "@/components/WhatsappFAB";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Phyoli Nursing Services",
+  title: "Phyoli Health Care",
   description: "In-Home Patient Care in Dehradun",
 };
 
